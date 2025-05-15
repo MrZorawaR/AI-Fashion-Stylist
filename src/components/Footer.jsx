@@ -19,8 +19,8 @@ function Footer() {
           <div className="transition-opacity duration-700 delay-100">
             <h4 className="text-sm font-semibold mb-4 text-[#D81B60]">Pages</h4>
             <ul className="space-y-2">
-              {['/', '/analysis', '/history'].map((path, i) => {
-                const label = ['Home', 'Style Analysis', 'History'][i];
+              {['/', '/analysis', '/about'].map((path, i) => {
+                const label = ['Home', 'Style Analysis', 'About'][i];
                 return (
                   <li key={path}>
                     <Link

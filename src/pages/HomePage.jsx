@@ -24,9 +24,11 @@ function HomePage() {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
+                <Link to="/about">
                 <Button variant="outline" className="border-[#D81B60] text-[#D81B60] hover:bg-[#FCE4EC]">
                   Learn More
                 </Button>
+                </Link>
               </div>
             </div>
             <div className="mx-auto lg:mr-0 animate-scale-in">
@@ -102,7 +104,7 @@ function HomePage() {
                 ))}
               </ul>
               <Link to="/analysis">
-                <Button className="bg-[#D81B60] text-white hover:bg-[#AD1457] transition-transform hover:scale-105">
+                <Button className="bg-[#D81B60] text-white hover:bg-[#AD1457] transition-transform hover:scale-105 mt-5">
                   Try It Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
