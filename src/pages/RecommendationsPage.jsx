@@ -87,11 +87,6 @@ Format as:
       key={index}
       className="overflow-hidden hover:shadow-lg transition-shadow relative"
     >
-      <img
-        src={outfit.image}
-        alt={outfit.name}
-        className="w-full h-64 object-cover"
-      />
       <span className="absolute top-2 left-2 bg-[#D81B60] text-white text-xs font-medium px-2 py-1 rounded-full capitalize">
         {category}
       </span>
@@ -108,7 +103,7 @@ Format as:
         )}
       </Button>
       <CardContent className="p-4">
-        <h3 className="font-semibold text-lg mb-2 text-[#D81B60]">
+        <h3 className="font-semibold text-lg mt-5 mb-2 text-[#D81B60]">
           {outfit.name}
         </h3>
         <p className="text-neutral-600 text-sm mb-3">{outfit.description}</p>
